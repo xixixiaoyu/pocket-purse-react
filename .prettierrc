@@ -1,0 +1,30 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "embeddedLanguageFormatting": "auto",
+  "bracketSameLine": false,
+  "vueIndentScriptAndStyle": true,
+  "insertPragma": false,
+  "endOfLine": "lf",
+  "requirePragma": false,
+  "quoteProps": "consistent",
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "options": {
+        "semi": true,
+        "arrowParens": "always"
+      }
+    }
+  ]
+}

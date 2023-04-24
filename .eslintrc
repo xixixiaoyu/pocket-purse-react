@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "@antfu",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-use-before-define": "off",
+    "antfu/if-newline": "off"
+  }
+}
